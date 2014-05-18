@@ -10,7 +10,7 @@ Example Spec - The title of your blueprint
 
 Include the URL of your launchpad blueprint:
 
-https://blueprints.launchpad.net/nova/+spec/example
+https://blueprints.launchpad.net/keystone/+spec/example
 
 Introduction paragraph -- why are we doing anything? A single paragraph of
 prose that operators can understand.
@@ -22,7 +22,7 @@ Some notes about using this template:
 * Please wrap text at 79 columns.
 
 * The filename in the git repository should match the launchpad URL, for
-  example a URL of: https://blueprints.launchpad.net/nova/+spec/awesome-thing
+  example a URL of: https://blueprints.launchpad.net/keystone/+spec/new-feature
   should be named awesome-thing.rst
 
 * Please do not delete any of the sections in this template.  If you have
@@ -125,7 +125,7 @@ Each API method which is either added or changed should have the following
 * Discuss any policy changes, and discuss what things a deployer needs to
   think about when defining their policy.
 
-Example JSON schema definitions can be found in the Nova tree
+Example JSON schema definitions can be found in the Keystone tree
 http://git.openstack.org/cgit/openstack/nova/tree/nova/api/openstack/compute/schemas/v3
 
 Note that the schema should be defined as restrictively as
@@ -178,7 +178,7 @@ Other end user impact
 Aside from the API, are there other ways a user will interact with this
 feature?
 
-* Does this change have an impact on python-novaclient? What does the user
+* Does this change have an impact on python-keystoneclient? What does the user
   interface there look like?
 
 Performance Impact
@@ -269,11 +269,11 @@ but we're mostly trying to understand the timeline for implementation.
 Dependencies
 ============
 
-* Include specific references to specs and/or blueprints in nova, or in other
-  projects, that this one either depends on or is related to.
+* Include specific references to specs and/or blueprints in keystone, or in
+  other projects, that this one either depends on or is related to.
 
 * If this requires functionality of another project that is not currently used
-  by Nova (such as the glance v2 API when we previously only required v1),
+  by Keystone (such as the glance v2 API when we previously only required v1),
   document that fact.
 
 * Does this feature require any new library dependencies or code otherwise not

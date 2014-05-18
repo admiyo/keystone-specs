@@ -1,10 +1,10 @@
 ==================================
-OpenStack Nova Specifications
+OpenStack Keystone Specifications
 ==================================
 
 This git repository is used to hold approved design specifications for additions
-to the Nova project.  Reviews of the specs are done in gerrit, using a similar
-workflow to how we review and merge changes to the code itself.
+to the Keystone project.  Reviews of the specs are done in gerrit, using a
+similar workflow to how we review and merge changes to the code itself.
 
 The layout of this repository is::
 
@@ -25,7 +25,7 @@ Prior to the Juno development cycle, this repository was not used for spec
 reviews.  Reviews prior to Juno were completed entirely through Launchpad
 blueprints::
 
-  http://blueprints.launchpad.net/nova
+  http://blueprints.launchpad.net/keystone
 
 Please note, Launchpad blueprints are still used for tracking the
 current status of blueprints. For more information, see::

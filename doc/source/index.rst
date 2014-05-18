@@ -1,7 +1,7 @@
-.. nova-specs documentation master file
+.. keystone-specs documentation master file
 
 ===========================
-Nova Project Specifications
+Keystone Project Specifications
 ===========================
 
 Contents:
